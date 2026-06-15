@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget",
+      "Bash(pip --version)",
+      "PowerShell(uv --version)",
+      "PowerShell(cd \"C:\\\\Users\\\\aitor\\\\OneDrive\\\\Escritorio\\\\Agentes\\\\CV_agent_project\"; $env:ANTHROPIC_API_KEY = \"dummy\"; .venv\\\\Scripts\\\\python -c \"from graph.graph import graph; print\\('Graph compiled OK, nodes:', list\\(graph.nodes.keys\\(\\)\\)\\)\")"
+    ]
+  }
+}

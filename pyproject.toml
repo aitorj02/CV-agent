@@ -1,0 +1,20 @@
+[project]
+name = "cv-agent"
+version = "0.1.0"
+description = "Multi-agent CV enhancement system using LangChain and LangGraph"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=0.3",
+    "langgraph>=1.2",
+    "langchain-google-genai>=4.2",
+    "pypdf>=6.0",
+    "streamlit>=1.58",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-mock>=3.14"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
