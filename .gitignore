@@ -6,5 +6,5 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 dist/
-AI_CONCEPST.md
+AI_CONCEPTS.md
 *.egg-info/
